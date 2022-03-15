@@ -5,7 +5,6 @@ import { StoreContext } from "../../App";
 import { setSearchFilter } from "../../store/actions";
 
 function Header({ theme, inputRef }) {
-  console.log(theme);
   const { dispatch } = useContext(StoreContext);
 
   const handleSubmit = useCallback(
