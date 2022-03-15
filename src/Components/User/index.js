@@ -64,10 +64,10 @@ function User() {
         </InputWrapperIcon>
       </InputWrapper>
       <ButtonWrapper>
-        <Button secondary theme={theme}>
+        <Button primary theme={theme}>
           Register
         </Button>
-        <Button primary theme={theme}>
+        <Button secondary theme={theme}>
           Login
         </Button>
       </ButtonWrapper>
