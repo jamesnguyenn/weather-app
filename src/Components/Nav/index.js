@@ -7,20 +7,20 @@ import { StoreContext } from "../../App";
 import styled from "styled-components";
 
 function Nav() {
-  const [activeColor, setActiveColor] = useState("/");
+  const [activeColor, setActiveColor] = useState("/weather-app");
   const url = window.location.href;
   const { store } = useContext(StoreContext);
 
   const handleActiveHomeIcon = useCallback(() => {
-    setActiveColor("/");
+    setActiveColor("/weather-app");
   }, []);
 
   const handleActiveSearchIcon = useCallback(() => {
-    setActiveColor("/search");
+    setActiveColor("/weather-app/search");
   }, []);
 
   const handleActiveUserIcon = useCallback(() => {
-    setActiveColor("/user");
+    setActiveColor("/weather-app/user");
   }, []);
 
   return (
@@ -28,7 +28,7 @@ function Nav() {
       <MenuWrapper>
         <MenuLists>
           <MenuItem theme={store.theme}>
-            <Link to="/">
+            <Link to="/weather-app">
               <HomeIcon
                 onClick={handleActiveHomeIcon}
                 sx={{
@@ -47,7 +47,7 @@ function Nav() {
             </Link>
           </MenuItem>
           <MenuItem theme={store.theme}>
-            <Link to="/search">
+            <Link to="/weather-app/search">
               <SearchIcon
                 onClick={handleActiveSearchIcon}
                 sx={{
@@ -60,7 +60,7 @@ function Nav() {
             </Link>
           </MenuItem>
           <MenuItem theme={store.theme}>
-            <Link to="/user">
+            <Link to="/weather-app/user">
               <PersonIcon
                 sx={{
                   color:

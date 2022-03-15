@@ -11,8 +11,6 @@ import { reducer, initialState } from "./store/reducer";
 import { addWeatherData, setLocation } from "./store/actions";
 import fetchData from "./api/axios";
 
-console.log(process.env.REACT_APP_API_KEY);
-
 let vh = window.innerHeight * 0.01;
 
 function App() {
@@ -51,9 +49,9 @@ function App() {
         <Wrapper theme={store.theme}>
           <Nav></Nav>
           <Routes>
-            <Route path="/" element={<Main />}></Route>
-            <Route path="/search" element={<Search />}></Route>
-            <Route path="/user" element={<User />}></Route>
+            <Route path="/weather-app" element={<Main />}></Route>
+            <Route path="/weather-app/search" element={<Search />}></Route>
+            <Route path="/weather-app/user" element={<User />}></Route>
           </Routes>
         </Wrapper>
       </StoreContext.Provider>

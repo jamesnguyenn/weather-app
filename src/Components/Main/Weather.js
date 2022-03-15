@@ -15,7 +15,7 @@ function Weather({ data, theme }) {
         />
       </WeatherImage>
       <WeatherInfo theme={theme}>
-        {data.weather ? data?.weather[0]?.description.toLowerCase() : "Thunder"}
+        {data.weather ? data?.weather[0]?.description.toUpperCase() : "Thunder"}
       </WeatherInfo>
       <WeatherDegree theme={theme}>
         <WeatherDegreePrimary>{temp}</WeatherDegreePrimary>
