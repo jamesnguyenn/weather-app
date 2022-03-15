@@ -28,14 +28,14 @@ function User() {
         ></Input>
       </InputWrapper>
       <InputWrapper theme={theme}>
-        <Label htmlFor="username1" theme={theme}>
+        <Label htmlFor="username2" theme={theme}>
           Passwords
         </Label>
         <InputWrapperIcon>
           <Input
             autocomplete="off"
             type={showPassword ? "text" : "password"}
-            id="username1"
+            id="username2"
             placeholder="Enter your passwords"
             theme={theme}
           ></Input>
