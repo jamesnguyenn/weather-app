@@ -89,7 +89,7 @@ const MenuWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 3px 10px;
   z-index: 1000;
 `;
 
