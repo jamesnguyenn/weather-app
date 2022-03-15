@@ -2,7 +2,7 @@
 
 Visit page at [here](https://jamesnguyenn.github.io/weather-app/).
 
-Thanks[OpenWeatherMap](https://openweathermap.org/) to provide data.
+Thanks [OpenWeatherMap](https://openweathermap.org/) to provide data.
 
 Screenshots about the project:
 
