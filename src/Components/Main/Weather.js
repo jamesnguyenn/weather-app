@@ -50,7 +50,7 @@ const WeatherWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 10px;
 `;
 
 const WeatherImage = styled.div`
