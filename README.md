@@ -1,3 +1,9 @@
+# Weather App using ReactJS(useContext, useState, useEffect, useReducer)
+
+[Visit page at](https://github.com/facebook/create-react-app).
+
+[Thanks ](https://openweathermap.org/) to provide data.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
